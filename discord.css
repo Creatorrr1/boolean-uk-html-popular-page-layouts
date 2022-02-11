@@ -1,0 +1,29 @@
+* {
+   box-sizing: border-box;
+}
+
+.main-layout {
+   height: 100vh;
+
+   display: grid;
+   grid-template: 
+   "left main right" 1fr /
+   100px 1fr 1000px ;
+
+}
+
+.left{
+    grid-area: left;
+    background-color: rgb(68, 68, 68);
+}
+
+.main {
+    grid-area: main;
+    background-color:  rgb(161, 161, 161);
+}
+
+.right {
+    grid-area: right;
+    background-color: rgb(109, 106, 106);
+}
+
